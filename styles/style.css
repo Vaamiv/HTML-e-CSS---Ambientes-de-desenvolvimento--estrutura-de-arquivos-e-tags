@@ -134,3 +134,116 @@ b {
     text-decoration: none;
     color: var(--cor--secundaria);
 }
+
+.skill-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.skill-level {
+    height: 100%;
+}
+
+.html { 
+    width: 75%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: html 3s;
+}
+.css { 
+    width: 70%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: css 3s; 
+}
+.js { 
+    width: 60%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: js 3s;
+}
+.python { 
+    width: 55%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: python 3s; 
+}
+.automations { 
+    width: 40%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: automations 3s; 
+}
+.data-science { 
+    width: 30%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: data-science 3s; 
+}
+.office { 
+    width: 80%; 
+    background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
+    animation: office 3s; 
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes automations {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes data-science {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes office {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
