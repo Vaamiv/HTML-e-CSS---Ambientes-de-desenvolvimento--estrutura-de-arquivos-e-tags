@@ -2,7 +2,7 @@
 
 :root {
     --cor--primaria: #f6f6f6;
-    --cor--secundaria: #FA8246;
+    --cor--secundaria: #FF8F00;
     --cor--terciaria: #FAAD46;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -17,7 +17,8 @@
 body{
     box-sizing: border-box;
     color: var(--cor--primaria);
-    background-image: url(../src/images/binario.jpg);
+    background-color: #00204A;
+    background-image: url(../src/images/fundo-abstrato-azul_1393-339.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
