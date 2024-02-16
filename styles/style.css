@@ -51,6 +51,7 @@ b {
 .titulo-destaque {
     color: var(--cor--secundaria);
 }
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -158,31 +159,37 @@ b {
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: html 3s;
 }
+
 .css { 
     width: 70%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: css 3s; 
 }
+
 .js { 
     width: 60%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: js 3s;
 }
+
 .python { 
     width: 55%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: python 3s; 
 }
+
 .automations { 
     width: 40%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: automations 3s; 
 }
+
 .data-science { 
     width: 30%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
     animation: data-science 3s; 
 }
+
 .office { 
     width: 80%; 
     background: linear-gradient(to right, var(--cor--secundaria), var(--cor--terciaria));
@@ -252,7 +259,24 @@ b {
 
 
 @media (max-width: 1080px) {
+    .cabecalho {
+        padding: 6%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .rodape {
+        width: 100%;
     }
 }
