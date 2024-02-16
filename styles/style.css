@@ -265,6 +265,9 @@ b {
 
     .cabecalho__menu {
         justify-content: center;
+        width: auto;
+        padding: auto;
+        gap: 15%;
     }
 
     .apresentacao {
