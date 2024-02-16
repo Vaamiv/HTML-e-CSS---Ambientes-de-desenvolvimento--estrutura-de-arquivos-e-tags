@@ -279,6 +279,10 @@ b {
         width: auto;
     }
 
+    .imagem__perfil {
+        width: 50%;
+    }
+
     .rodape {
         width: 100%;
     }
