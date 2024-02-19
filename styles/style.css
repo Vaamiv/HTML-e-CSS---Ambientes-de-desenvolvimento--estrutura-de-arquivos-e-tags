@@ -299,7 +299,9 @@ b {
 
     .imagem__perfil {
         width: 50%;
+        height: 50%;
         max-width: 400px;
+        max-height: 400px;
     }
 
     .rodape {
