@@ -281,14 +281,42 @@ b {
     }
 
     .apresentacao__conteudo {
+        justify-content: center;
+        padding: 6%;
+        width: auto;
+        max-width: 600px;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.4rem;
+        width: auto;
+    }
+    
+    .apresentacao__conteudo__texto {
+        font-size: 1.2rem;
         width: auto;
     }
 
     .imagem__perfil {
         width: 50%;
+        max-width: 400px;
     }
 
     .rodape {
         width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 6%;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.3rem;
+    }
+
+    .apresentacao {
+        padding: 5% 5%; /* Redimensionando o preenchimento para tamanhos ainda menores */
     }
 }
