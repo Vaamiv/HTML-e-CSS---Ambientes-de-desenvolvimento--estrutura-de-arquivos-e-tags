@@ -272,7 +272,7 @@ b {
     }
 
     .cabecalho__menu__link {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .apresentacao {
@@ -302,6 +302,15 @@ b {
         height: 50%;
         max-width: 400px;
         max-height: 400px;
+    }
+
+    .apresentacao__links {
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__links__navegacao {
+        font-size: 1.2rem;
+        
     }
 
     .rodape {
