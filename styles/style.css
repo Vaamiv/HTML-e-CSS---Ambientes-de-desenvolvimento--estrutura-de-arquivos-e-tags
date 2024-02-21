@@ -260,7 +260,7 @@ b {
 
 @media (max-width: 1300px) {
 
-    html {
+    body {
         max-height: 100%;
     }
 
