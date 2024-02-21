@@ -260,6 +260,11 @@ b {
 
 @media (max-width: 1300px) {
 
+    html {
+        max-height: 100%;
+        overflow: hidden;
+    }
+
     .cabecalho {
         padding: 6%;
     }
